@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testsuite>
+	
+	<AdminLogin>
+		<Browser>Chrome</Browser>
+	</AdminLogin>
+	
+	<AdminLogin>
+		<Browser>FireFox</Browser>
+	</AdminLogin>
+
+	<GuestLogin>
+		<Browser>Chrome</Browser>
+	</GuestLogin>
+
+	<GuestLogin>
+		<Browser>FireFox</Browser>
+	</GuestLogin>
+
+	<ManagerLogin>
+		<Browser>Chrome</Browser>
+	</ManagerLogin>
+
+	<ManagerLogin>
+		<Browser>FireFox</Browser>
+	</ManagerLogin>
+
+	<IncorrectLogin>
+		<Browser>Chrome</Browser>
+	</IncorrectLogin>
+
+	<IncorrectLogin>
+		<Browser>FireFox</Browser>
+	</IncorrectLogin>
+</testsuite>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testsuite>
+
+	<RegisterAUser>
+		<Browser>Chrome</Browser>
+	</RegisterAUser>
+
+	<RegisterAUser>
+		<Browser>FireFox</Browser>
+	</RegisterAUser>
+
+	<RegisterAnExistingUser>
+		<Browser>Chrome</Browser>
+	</RegisterAnExistingUser>
+
+	<RegisterAnExistingUser>
+		<Browser>FireFox</Browser>
+	</RegisterAnExistingUser>
+</testsuite>

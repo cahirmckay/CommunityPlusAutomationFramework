@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testsuite>
+
+	<AddingAHeadline>
+		<Browser>Chrome</Browser>
+	</AddingAHeadline>
+
+	<AddingAHeadline>
+		<Browser>FireFox</Browser>
+	</AddingAHeadline>
+
+</testsuite>
