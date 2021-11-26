@@ -39,8 +39,8 @@ namespace CommunityPlusAutomationFramework
             // Click the Dashboard Menu item
             DashboardPage dashboardPage = adminHomePage.ClickMenuItem<DashboardPage>(MenuItems.DashBoard);
 
-            // Scroll to My Photos button
-            dashboardPage.ScrollToXPath("(//*[@class='btn btn-primary'][normalize-space()='MyPhotos'])[1]");
+            // Scroll to MyPlaces button
+            dashboardPage.ScrollToXPath("(//*[@class='btn btn-primary'][normalize-space()='MyPlaces'])[1]");
 
             // Click the MyPlaces button
             MyPlacesPage myPlacesPage = dashboardPage.ClickFeatureButton<MyPlacesPage>(Features.MyPlaces);

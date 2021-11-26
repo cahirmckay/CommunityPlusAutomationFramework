@@ -39,7 +39,7 @@ namespace CommunityPlusAutomationFramework
             // Click the Dashboard Menu item
             DashboardPage dashboardPage = adminHomePage.ClickMenuItem<DashboardPage>(MenuItems.DashBoard);
 
-            // Click the MyEnvironment button
+            // Click the MyNews button
             MyNewsPage myNewsPage = dashboardPage.ClickFeatureButton<MyNewsPage>(Features.MyNews);
 
             // Click the Add an article

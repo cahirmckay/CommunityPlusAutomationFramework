@@ -39,10 +39,10 @@ namespace CommunityPlusAutomationFramework
             // Click the Dashboard Menu item
             DashboardPage dashboardPage = adminHomePage.ClickMenuItem<DashboardPage>(MenuItems.DashBoard);
 
-            // Scroll to My Photos button
+            // Scroll to MyPhotos button
             dashboardPage.ScrollToXPath("(//*[@class='btn btn-primary'][normalize-space()='MyPhotos'])[1]");
 
-            // Click the MyEnvironment button
+            // Click the MyPhotos button
             MyPhotosPage myPhotosPage = dashboardPage.ClickFeatureButton<MyPhotosPage>(Features.MyPhotos);
 
             // Click the create button
@@ -60,7 +60,7 @@ namespace CommunityPlusAutomationFramework
             // Click Create
             myPhotosPage = createAPhotoPage.ClickButton<MyPhotosPage>("Create");
 
-            // Assert issue has been created
+            // Assert photo has been created
             IWebElement issueCreated = driver.WaitUntilElementIsVisible(By.XPath("(//*[@class='alert alert-success'])[1]"));
             Assert.IsTrue(issueCreated.Text.Equals("logo has been successfully added"));
 

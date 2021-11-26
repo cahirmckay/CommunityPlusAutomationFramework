@@ -39,7 +39,7 @@ namespace CommunityPlusAutomationFramework
             // Click the Dashboard Menu item
             DashboardPage dashboardPage = adminHomePage.ClickMenuItem<DashboardPage>(MenuItems.DashBoard);
 
-            // Scroll to My Chats button
+            // Scroll to MyChats button
             dashboardPage.ScrollToXPath("(//*[@class='btn btn-primary'][normalize-space()='MyChats'])[1]");
 
             // Click the MyChats button
